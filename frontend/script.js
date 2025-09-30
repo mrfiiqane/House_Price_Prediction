@@ -12,12 +12,11 @@ document.getElementById("predictForm").addEventListener("submit", async function
   const model = document.getElementById("modelChoice").value;
 
   try {
-    const res = await fetch(`/api/predict`, {
-  method: "POST",
-  headers: { "Content-Type": "application/json" },
-  body: JSON.stringify({...payload, model: model})
-});
-
+    const res = await fetch(`http://localhost:8000/predict?model=${model}`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload)
+    });
 
     const data = await res.json();
     const resultDiv = document.getElementById("result");
