@@ -10,6 +10,13 @@ project gan waa predict house prices based on features such as square, number of
 
 waxan ku toobaray **Linear Regression** and **Random Forest** models kadibna waxan ku xiray frontend HTML, CSS, JS
 
+
+##### tijabo:
+
+![alt text](LR.png) ![alt text](RF.png)
+
+
+
 ## - 📊 Dataset
 
 - data waa clean waana la  preprocessed gareyey
