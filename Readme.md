@@ -1,4 +1,4 @@
-# 🏠 House Price Prediction
+# ress🏠 House Price Prediction
 
 *Machine Learning Project to Predict House Prices*
 
@@ -10,12 +10,13 @@ project gan waa predict house prices based on features such as square, number of
 
 waxan ku toobaray **Linear Regression** and **Random Forest** models kadibna waxan ku xiray frontend HTML, CSS, JS
 
-
 ##### tijabo:
 
-![alt text](LR.png) ![alt text](RF.png)
+###### Linear Regression
+![alt text](LR.png)
 
-
+###### Random Forest
+![alt text](RF.png)
 
 ## - 📊 Dataset
 
@@ -44,7 +45,7 @@ Main features used for prediction:
 
 waxan ku toobaray:
 
-- **Linear Regression** 
+- **Linear Regression**
 - **Random Forest Regressor**
 
 **Saved models:**
@@ -82,12 +83,10 @@ waxan ku toobaray:
 
 Start Flask API:
 
-
 ###### Send POST request
 
 http://localhost:8000/predict?model=lr
 http://localhost:8000/predict?model=rf
-
 
 ###### Example JSON input:
 
@@ -98,7 +97,6 @@ http://localhost:8000/predict?model=rf
   "YearBuilt": 2010,
   "Location": "City"
 }
-
 
 ###### Example response:
 
