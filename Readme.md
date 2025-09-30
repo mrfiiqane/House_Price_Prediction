@@ -1,6 +1,6 @@
-# ress🏠 House Price Prediction
+# 🏠 House Price Prediction
 
-*Machine Learning Project to Predict House Prices*
+*Welcome! Machine Learning Project to Predict House Prices*
 
 ---
 
